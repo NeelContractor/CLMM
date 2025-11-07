@@ -1,0 +1,8 @@
+   0.347624292s  INFO prepare_target{force=false package_id=clmm v0.1.0 (/Users/neelcontractor/Documents/clmm/anchor/programs/clmm) target="clmm"}: cargo::core::compiler::fingerprint: fingerprint dirty for clmm v0.1.0 (/Users/neelcontractor/Documents/clmm/anchor/programs/clmm)/Check { test: false }/TargetInner { ..: lib_target("clmm", ["cdylib", "lib"], "/Users/neelcontractor/Documents/clmm/anchor/programs/clmm/src/lib.rs", Edition2021) }
+   0.348046417s  INFO prepare_target{force=false package_id=clmm v0.1.0 (/Users/neelcontractor/Documents/clmm/anchor/programs/clmm) target="clmm"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.394730042s  INFO prepare_target{force=false package_id=clmm v0.1.0 (/Users/neelcontractor/Documents/clmm/anchor/programs/clmm) target="clmm"}: cargo::core::compiler::fingerprint: fingerprint dirty for clmm v0.1.0 (/Users/neelcontractor/Documents/clmm/anchor/programs/clmm)/Check { test: true }/TargetInner { ..: lib_target("clmm", ["cdylib", "lib"], "/Users/neelcontractor/Documents/clmm/anchor/programs/clmm/src/lib.rs", Edition2021) }
+   0.394741875s  INFO prepare_target{force=false package_id=clmm v0.1.0 (/Users/neelcontractor/Documents/clmm/anchor/programs/clmm) target="clmm"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+    Checking clmm v0.1.0 (/Users/neelcontractor/Documents/clmm/anchor/programs/clmm)
+error: could not compile `clmm` (lib) due to 1 previous error; 13 warnings emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `clmm` (lib test) due to 1 previous error; 13 warnings emitted
