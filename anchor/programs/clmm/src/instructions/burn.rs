@@ -3,7 +3,7 @@ use anchor_spl::token::{Token, TokenAccount};
 use crate::states::*;
 
 #[derive(Accounts)]
-#[instruction(lower: i32, upper_tick: i32, liquidity_amount: u128)]
+#[instruction(lower_tick: i32, upper_tick: i32, liquidity_amount: u128)]
 pub struct Burn<'info> {
     #[account(mut)]
     pub pool: Account<'info, Pool>,

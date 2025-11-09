@@ -11,7 +11,7 @@ pub fn get_sqrt_price_from_tick(tick: i32) -> Result<u128> {
     Ok(adjusted_price)
 }
 
-pub fn het_tick_at_sqrt_price(sqrt_price_x96: u128) -> Result<i32> {
+pub fn get_tick_at_sqrt_price(sqrt_price_x96: u128) -> Result<i32> {
     let base_sqrt_price = 1u128 << 96;
     let adjustment_factor = 1_000_000_000 / 1000;
 
